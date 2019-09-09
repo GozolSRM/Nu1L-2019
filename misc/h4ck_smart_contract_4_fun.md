@@ -25,6 +25,7 @@ ethereum.sendAsync({
 
 # buy & transfer
 
+```javascript
 transactionParameters = {
   nonce: '0x00', // ignored by MetaMask
   gasPrice: '', // customizable by user during MetaMask confirmation.
@@ -41,6 +42,7 @@ ethereum.sendAsync({
   params: [transactionParameters],
   from: ethereum.selectedAddress,
 }, function() { console.log(arguments) })
+```
 
 
 
