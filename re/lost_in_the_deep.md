@@ -4,7 +4,7 @@ This is golang windows challenge.
 
 We found go symbol recovery helper at `https://github.com/sibears/IDAGolangHelper` and recovered all symbol.
 
-It looks like tree or graph path algorithm, and it decodes our input using custom table base64.
+It looks like tree or graph path problem, and it decodes our input using custom table base64.
 
 So we searched all path using dfs algorithm.
 
